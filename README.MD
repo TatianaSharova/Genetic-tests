@@ -47,7 +47,7 @@ GET http://127.0.0.1:8000/tests
 Ответ: 
 ```
 [
-      {
+  {
     "id": 4,
     "animal_name": "Буренка",
     "species": "корова",
@@ -87,14 +87,16 @@ GET http://127.0.0.1:8000/tests?species=корова
 ``` 
 Ответ: 
 ```
-{
-  "id": 4,
-  "animal_name": "Буренка",
-  "species": "корова",
-  "test_date": "2024-12-12",
-  "milk_yield": 23.5,
-  "health_status": "good"
-}
+[
+  {
+    "id": 4,
+    "animal_name": "Буренка",
+    "species": "корова",
+    "test_date": "2024-12-12",
+    "milk_yield": 23.5,
+    "health_status": "good"
+  },
+]
 
 ```
 5. Вывод статистики по видам животных:
