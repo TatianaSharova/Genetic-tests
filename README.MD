@@ -8,7 +8,7 @@ RESTful API, ĸоторое позволяет сохранять данные �
 Склонируйте репозиторий и перейдите в него в командной строке:
 
 ```
-https://github.com/TatianaSharova/Genetic-tests.git
+git clone https://github.com/TatianaSharova/Genetic-tests.git
 ```
 **_Запуск через Docker-compose:_**                                                 
 
